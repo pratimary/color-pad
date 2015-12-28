@@ -1,0 +1,24 @@
+html,body{
+
+    height:100%;
+    width:100%;
+}
+.container-table {
+    display: table;
+    height:100%;
+    width:100%;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+#MainCanvas
+{
+    background: white;
+    border: rgba(150, 141, 189, 0.42) solid 1px ;
+    margin-left: 30%;
+    width:490px;
+    height:220px;
+}

@@ -11,8 +11,7 @@ var users=[];
     {
         res.sendFile(__dirname + '/index.html' );
     });
-//app.use(express.static(path.join(__dirname, '/html')));
-//app.use(express.static(__dirname + '/html'));
+app.use(express.static('public'));
 io.sockets.on('connection',function(socket)
 {
     console.log("new user connected");
