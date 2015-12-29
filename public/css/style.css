@@ -1,5 +1,5 @@
 html,body{
-    background: rgba(132, 85, 255, 0.87);
+    background: rgba(85, 255, 214, 0.87);
     height:100%;
     width:100%;
 }
@@ -10,7 +10,7 @@ html,body{
 }
 .vertical-center-row {
     display: table-cell;
-    vertical-align: middle;
+
 
 }
 
@@ -18,7 +18,7 @@ html,body{
 {
     background: white;
     border: rgba(150, 141, 189, 0.42) solid 1px ;
-    margin-left: 30%;
+
     width:490px;
     height:220px;
 }

@@ -17,6 +17,11 @@ jQuery(function($)
     context.lineWidth = 5;
     //socket.emit('new user',context);
 
+    $("#user-form").submit(function(e)
+    {
+
+    });
+
     $("#MainCanvas").mousedown(function(e){
         var mouseX = e.pageX - this.offsetLeft;
         var mouseY = e.pageY - this.offsetTop;
